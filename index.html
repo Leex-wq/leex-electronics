@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Leex Electronics - Phone repairs, electronics and accessories in Kitui Inyuu.">
+<title>Leex Electronics | Phone Repairs & Electronics</title>
+<style>
+:root{
+  --blue:#063b91; --deep:#031c49; --gold:#f5c400; --light:#f5f8ff;
+  --text:#15233b; --white:#fff; --green:#16b85a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--light);color:var(--text)}
+a{text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(3,28,73,.97);box-shadow:0 3px 15px rgba(0,0,0,.18)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:16px}
+.logo{font-size:25px;font-weight:900;color:#fff;letter-spacing:.5px}
+.logo span{color:var(--gold)}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#fff;font-weight:700;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{padding:28px 0 55px;background:linear-gradient(135deg,#031c49,#0752bd)}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(38px,6vw,64px);line-height:.98;margin:0 0 18px;color:#fff}
+.hero h1 span{color:var(--gold)}
+.hero p{font-size:18px;line-height:1.6;color:#e9f0ff}
+.badge{display:inline-block;background:var(--gold);color:#111;padding:9px 14px;border-radius:999px;font-weight:900;margin-bottom:15px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;padding:14px 20px;border-radius:10px;font-weight:900}
+.btn-main{background:var(--green);color:#fff}
+.btn-second{background:#fff;color:var(--blue)}
+.poster{width:100%;max-height:600px;object-fit:cover;border-radius:18px;border:4px solid #fff;box-shadow:0 15px 40px rgba(0,0,0,.3)}
+section{padding:60px 0}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:34px;margin:0 0 10px;color:var(--deep)}
+.title p{margin:0;color:#5b6b82}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border-radius:16px;padding:25px;box-shadow:0 6px 22px rgba(20,50,100,.1);border-top:5px solid var(--blue)}
+.icon{font-size:35px}
+.card h3{margin:10px 0;color:var(--deep)}
+.card p{line-height:1.6;color:#5b6b82}
+.products{background:#fff}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.product{background:#f5f8ff;border-radius:14px;padding:20px;text-align:center;font-weight:800}
+.product .emoji{font-size:42px}
+.about{background:linear-gradient(180deg,#fff,#eaf1ff)}
+.about-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.about-box h2{font-size:36px;color:var(--deep)}
+.about-box p{line-height:1.8;color:#55657b}
+.contact{background:var(--deep);color:#fff}
+.contact .title h2,.contact .title p{color:#fff}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.contact-card{background:rgba(255,255,255,.08);padding:25px;border-radius:15px}
+.contact-card h3{margin-top:0;color:var(--gold)}
+.contact-card a{color:#fff;font-size:19px;font-weight:800}
+footer{background:#02122f;color:#d9e5ff;text-align:center;padding:22px}
+.whatsapp{position:fixed;right:18px;bottom:18px;background:var(--green);color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:29px;box-shadow:0 6px 20px rgba(0,0,0,.3);z-index:20}
+@media(max-width:800px){
+  .hero-grid,.about-box{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+  nav{display:none}
+  .hero{padding-top:22px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">LEEX <span>Electronics</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">QUALITY YOU CAN TRUST</div>
+      <h1>We Repair.<br><span>We Sell.</span><br>We Care.</h1>
+      <p>Professional phone repairs, electronics and accessories at affordable prices. Serving customers in <strong>Kitui Inyuu</strong>.</p>
+      <div class="buttons">
+        <a class="btn btn-main" href="https://wa.me/254706079948?text=Hello%20Leex%20Electronics%2C%20I%20need%20help%20with..." target="_blank">💬 WhatsApp Us</a>
+        <a class="btn btn-second" href="tel:+254706079948">📞 Call 0706 079 948</a>
+      </div>
+    </div>
+    <img class="poster" src="leex-poster.png" alt="Leex Electronics services and products">
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="title">
+      <h2>Our Services</h2>
+      <p>Reliable solutions for your devices.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">📱</div><h3>Screen Replacement</h3><p>Repair or replacement for cracked, broken or damaged phone screens.</p></div>
+      <div class="card"><div class="icon">🔋</div><h3>Battery Replacement</h3><p>Battery replacement to help your phone perform reliably for longer.</p></div>
+      <div class="card"><div class="icon">🔌</div><h3>Charging Port Repair</h3><p>Help with charging problems, loose ports and charging connection issues.</p></div>
+      <div class="card"><div class="icon">📶</div><h3>Network & Software</h3><p>Assistance with common network, software and device problems.</p></div>
+      <div class="card"><div class="icon">💧</div><h3>Water Damage Repair</h3><p>Device inspection and repair assistance after water or liquid damage.</p></div>
+      <div class="card"><div class="icon">🛠️</div><h3>General Phone Repair</h3><p>Professional troubleshooting and repair for many phone models.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="container">
+    <div class="title">
+      <h2>Electronics & Accessories</h2>
+      <p>Popular products available at Leex Electronics.</p>
+    </div>
+    <div class="product-grid">
+      <div class="product"><div class="emoji">🔋</div>Power Banks</div>
+      <div class="product"><div class="emoji">🔌</div>Chargers</div>
+      <div class="product"><div class="emoji">🔗</div>Fast Charging Cables</div>
+      <div class="product"><div class="emoji">🎧</div>Earphones</div>
+      <div class="product"><div class="emoji">🔊</div>Speakers</div>
+      <div class="product"><div class="emoji">⌚</div>Smart Watches</div>
+      <div class="product"><div class="emoji">📱</div>Phone Cases</div>
+      <div class="product"><div class="emoji">💾</div>Memory Cards</div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-box">
+    <div>
+      <h2>About Leex Electronics</h2>
+      <p>Leex Electronics provides phone repair services, electronics and accessories with a focus on quality, affordability and customer satisfaction.</p>
+      <p><strong>Located in Kitui Inyuu.</strong> Contact us before visiting if you want to confirm availability of a product or repair service.</p>
+    </div>
+    <img class="poster" src="leex-poster.png" alt="Leex Electronics">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="title">
+      <h2>Get In Touch</h2>
+      <p>We're ready to help with your device.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card"><h3>WhatsApp</h3><a href="https://wa.me/254706079948" target="_blank">0706 079 948</a></div>
+      <div class="contact-card"><h3>Call Us</h3><a href="tel:+254706079948">0706 079 948</a></div>
+      <div class="contact-card"><h3>Location</h3><div>📍 Kitui Inyuu</div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="whatsapp" href="https://wa.me/254706079948?text=Hello%20Leex%20Electronics" target="_blank" aria-label="Chat on WhatsApp">☏</a>
+
+<footer>
+  <div>Leex Electronics — Powering Your World</div>
+  <small>Phone Repairs • Electronics • Accessories • Quality • Trust</small>
+</footer>
+</body>
+</html>
